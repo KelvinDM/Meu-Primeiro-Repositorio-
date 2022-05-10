@@ -19,7 +19,7 @@ Oque você ira encontrar aqui?
 
 Se escolheu sim clique aqui embaixo:blue_heart:
 
-[Linkedin]([linkedin.com/in/kelvin-daniel-85bb19233](https://www.linkedin.com/in/kelvin-daniel-85bb19233))
+[Linkedin](https://www.linkedin.com/in/kelvin-daniel-85bb19233)
 
 
 
