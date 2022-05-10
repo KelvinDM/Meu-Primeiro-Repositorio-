@@ -1,0 +1,91 @@
+COMANDOS GIT BASH:
+
+###Criando a chave para configurar a maquina no GitHUB:
+
+ssh-keygen -t ed25519 -C meu e-mail
+
+senha:colocar senha depois
+
+
+
+###Agora deve-se entrar na pasta Escolhida
+cd pasta do local do arquivo
+
+
+
+###Agora dentro da pasta deve-se fazer o comando abaixo para gerar uma chave e colar no
+GitHUB
+cat "chave gerada"
+
+
+
+###Realizamos esse comando para acionar o PID e inicalizar o SSH
+eval $(ssh-agent -s)
+
+
+
+###Depois colocaremos esse comando para acessar o ID.
+ssh-add chave do ID.
+
+
+
+----------------------------------------------------------------------------------------
+
+
+###Serve para ver arquivos ocultos
+ls -a
+
+******primeira vez usando git deve-se fazer as primeiras configurações****************
+
+git config --global
+
+
+git config --global user.email "meu E-mail"
+
+
+git config --global user.name nome do abençoado
+
+
+###Serve para para iniciar o git na pasta escolhida
+git init
+
+###Serve para adicionar 
+git add *
+
+###serve para dar um commit no arquivo
+git commit -m "commit inicial"
+
+
+
+#####Seve para ver o status do meu arquivo GIT
+git status
+
+
+####Serve para mover os repositórios para outra pasta
+ex:
+mv pizza.md ./receitas/
+
+
+
+###pega tudo que estiver na pasta e colocar para aguardar o envio
+git add *
+
+### envia os arquivos para o repositório cair no github
+git remote add origin https://github.com/KelvinDM/livro-receitas.git
+
+e depois:
+
+git push origin master
+
+
+###Serve para puxar meu código lá do repositório do github
+git pull origin master
+
+
+###Serve para clonar um repositório.
+git clone
+
+
+
+
+
