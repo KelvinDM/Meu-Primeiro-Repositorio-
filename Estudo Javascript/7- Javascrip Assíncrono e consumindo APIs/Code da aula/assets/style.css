@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Quicksand', sans-serif;
+	height: 100vh;
+	margin: 0;
+	background: url("../imagens/fundo-dog.jpg")repeat;
+}
+
+img {
+	max-width: 600px;
+	border-radius: 30px;
+}
+
+main {
+	text-align: center;
+}
+
+button {
+	border: 2 ;
+    border-color: rgb(119, 186, 224);
+    border-radius: 10%;
+	font-size: 1.2rem;
+	font-weight: 500;
+	padding: 16px;
+	background: rgb(74, 2, 168);
+	color: white;
+	margin: 20px 0;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+	background: rgb(119, 186, 224);
+}
+
+h1 {
+    border: 2 ;
+    border-color: rgb(119, 186, 224);
+    border-radius: 2%;
+	font-size: 2.2rem;
+	font-weight: 500;
+	padding: 2px;
+	background: rgb(74, 2, 168);
+	color: white;
+	margin: 2px 0;
+}
